@@ -5,7 +5,6 @@ var connect 	= require('gulp-connect');
 var sass 		= require('gulp-sass');
 var jshint 		= require('gulp-jshint');
 var source 		= require('vinyl-source-stream');
-// var karma 		= require('karma').server;
 
 //**************** Server ***************************
 gulp.task('server', function(){

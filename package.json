@@ -1,13 +1,19 @@
 {
-  "name": "simple-react-starter",
+  "name": "simple-react-boilerplate",
   "version": "0.0.1",
-  "description": "",
-  "main": "main.js",
+  "description": "Simple starter project for React.js and other projects",
   "scripts": {
     "start": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Evan Hobbs",
+    "email": "evanhobbs@gmail.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/evanhobbs/simple-react-starter"
+  },
   "license": "ISC",
   "devDependencies": {
     "babelify": "^5.0.4",
@@ -18,7 +24,6 @@
     "gulp-sass": "^1.3.3",
     "jshint": "^2.6.3",
     "jshint-stylish": "^1.0.1",
-    "karma": "^0.12.31",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^2.5.0"
   },
