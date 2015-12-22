@@ -51,7 +51,7 @@ function buildJS() {
 		.bundle()
 		.on('error', function(err){
 			console.log(err.message);
-			this.end();
+			// this.end();
 		})
 		.pipe(source('build.js'))
 		// .pipe(jshint.reporter(require('jshint-stylish')))
